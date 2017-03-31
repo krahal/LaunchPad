@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Launchpad</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="numberonetext">Click here to assign sounds.</string>
+    <string name="numberTwoText">Choose sounds for buttons and listen to sounds in play mode.</string>
+    <string name="numberThreeText">Play sound mode (on/off)</string>
+    <string name="numberFourText">Update the physical launchpad.</string>
+</resources>

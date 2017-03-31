@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nisha.launchpad.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:id="@+id/content_main">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bttnGrid"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/button00"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="1"
+            android:layout_row="0" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="2"
+            android:layout_row="0" />
+
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="3"
+            android:layout_row="0" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="0"
+            android:layout_row="1" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="1"
+            android:layout_row="1" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="2"
+            android:layout_row="1" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="3"
+            android:layout_row="1" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="1"
+            android:layout_row="2" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="2"
+            android:layout_row="2" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="3"
+            android:layout_row="2" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="0"
+            android:layout_row="3" />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="1"
+            android:layout_row="3" />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="2"
+            android:layout_row="3" />
+
+        <Button
+            android:id="@+id/button33"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="3"
+            android:layout_row="3" />
+
+        <Button
+            android:id="@+id/launchButton"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="fill"
+            android:layout_columnSpan="2"
+            android:text="Launch"/>
+
+        <SeekBar
+            android:id="@+id/volumeBar"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="@dimen/button_length"
+            android:layout_height="@dimen/button_length"
+            android:layout_column="0"
+            android:layout_row="2" />
+
+    </GridLayout>
+
+</RelativeLayout>

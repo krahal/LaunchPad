@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.nisha.launchpad.HelpFragment">
+
+    <ImageView
+        android:id="@+id/one"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/number_one"
+        android:layout_marginTop="82dp"
+        android:layout_below="@+id/twoText"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numberonetext"
+        android:id="@+id/oneText"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:layout_alignTop="@+id/one"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <ImageView
+        android:id="@+id/two"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/number_two" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numberTwoText"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:layout_alignBaseline="@+id/threeText"
+        android:layout_alignBottom="@+id/threeText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/threeText"
+        android:layout_toLeftOf="@+id/threeText"
+        android:id="@+id/twoText"/>
+
+    <ImageView
+        android:id="@+id/three"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/number_three"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/oneText"
+        android:layout_alignEnd="@+id/oneText" />
+
+    <TextView
+        android:id="@+id/threeText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:padding="15dp"
+        android:text="@string/numberThreeText"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/four"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/number_four"
+        android:layout_above="@+id/fourText"
+        android:layout_alignLeft="@+id/one"
+        android:layout_alignStart="@+id/one" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numberFourText"
+        android:id="@+id/fourText"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

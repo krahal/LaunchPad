@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_sound1"
+            android:icon="@drawable/music_note"
+            android:title="Mario Waha!" />
+        <item
+            android:id="@+id/nav_sound2"
+            android:icon="@drawable/music_note"
+            android:title="Power Chant 1" />
+        <item
+            android:id="@+id/nav_sound3"
+            android:icon="@drawable/music_note"
+            android:title="Power Chant 2" />
+        <item
+            android:id="@+id/nav_sound4"
+            android:icon="@drawable/music_note"
+            android:title="Power Chant 3" />
+        <item
+            android:id="@+id/nav_sound5"
+            android:icon="@drawable/music_note"
+            android:title="Power Clap" />
+        <item
+            android:id="@+id/nav_sound6"
+            android:icon="@drawable/music_note"
+            android:title="Clap Analog" />
+        <item
+            android:id="@+id/nav_sound7"
+            android:icon="@drawable/music_note"
+            android:title="Clap Fat" />
+        <item
+            android:id="@+id/nav_sound8"
+            android:icon="@drawable/music_note"
+            android:title="Crash Acoustic" />
+        <item
+            android:id="@+id/nav_sound9"
+            android:icon="@drawable/music_note"
+            android:title="Hi-hat 808" />
+        <item
+            android:id="@+id/nav_sound10"
+            android:icon="@drawable/music_note"
+            android:title="Kick 808" />
+        <item
+            android:id="@+id/nav_sound11"
+            android:icon="@drawable/music_note"
+            android:title="Kick Slapback" />
+        <item
+            android:id="@+id/nav_sound12"
+            android:icon="@drawable/music_note"
+            android:title="Kick Thump" />
+        <item
+            android:id="@+id/nav_sound13"
+            android:icon="@drawable/music_note"
+            android:title="Kick Vinyl" />
+        <item
+            android:id="@+id/nav_sound14"
+            android:icon="@drawable/music_note"
+            android:title="Kick Zapper" />
+        <item
+            android:id="@+id/nav_sound15"
+            android:icon="@drawable/music_note"
+            android:title="Perc 808" />
+        <item
+            android:id="@+id/nav_sound16"
+            android:icon="@drawable/music_note"
+            android:title="Perc Hollow" />
+        <item
+            android:id="@+id/nav_sound17"
+            android:icon="@drawable/music_note"
+            android:title="Perc Metal" />
+        <item
+            android:id="@+id/nav_sound18"
+            android:icon="@drawable/music_note"
+            android:title="Snare 808" />
+        <item
+            android:id="@+id/nav_sound19"
+            android:icon="@drawable/music_note"
+            android:title="Snare Electro" />
+        <item
+            android:id="@+id/nav_sound20"
+            android:icon="@drawable/music_note"
+            android:title="Snare Lofi" />
+        <item
+            android:id="@+id/nav_sound21"
+            android:icon="@drawable/music_note"
+            android:title="Snare Pinch" />
+        <item
+            android:id="@+id/nav_sound22"
+            android:icon="@drawable/music_note"
+            android:title="Tom Short" />
+        <item
+            android:id="@+id/nav_sound23"
+            android:icon="@drawable/music_note"
+            android:title="Panda" />
+        <item
+            android:id="@+id/nav_sound24"
+            android:icon="@drawable/music_note"
+            android:title="Git" />
+    </group>
+
+</menu>
