@@ -1,4 +1,4 @@
-# Launchpad-AndroidApp
+# LaunchPad
 This app was created for our CPEN 291 Computer Engineering Design Studio I project course. This last project was quite open-ended with a key requirement: integration of an Arduino, Raspberry Pi, web server, and a website or app. Within a group of 6, my partner, Nishat, and I took the role of implementing the app.
 
 The idea for this project was based around the concept of integrating music, computer engineering, and "Internet-of-things." We decided to create a physical launchpad that would use the Arduino and Raspberry Pi to play uploaded sounds. The sounds would be uploaded to the hardware using an Android app.
