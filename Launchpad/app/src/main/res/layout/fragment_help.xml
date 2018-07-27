@@ -67,22 +67,4 @@
         android:text="@string/numberThreeText"
         android:textSize="16sp" />
 
-    <ImageView
-        android:id="@+id/four"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        app:srcCompat="@drawable/number_four"
-        android:layout_above="@+id/fourText"
-        android:layout_alignLeft="@+id/one"
-        android:layout_alignStart="@+id/one" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/numberFourText"
-        android:id="@+id/fourText"
-        android:textSize="16sp"
-        android:padding="15dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
 </RelativeLayout>

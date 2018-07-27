@@ -123,28 +123,6 @@
             android:layout_row="3" />
 
         <Button
-            android:id="@+id/launchButton"
-            android:layout_width="80dp"
-            android:layout_height="60dp"
-            android:layout_column="1"
-            android:layout_row="4"
-            android:layout_marginTop="15dp"
-            android:layout_gravity="fill"
-            android:layout_columnSpan="2"
-            android:text="Launch"/>
-
-        <SeekBar
-            android:id="@+id/volumeBar"
-            android:layout_width="80dp"
-            android:layout_height="50dp"
-            android:layout_column="1"
-            android:layout_row="4"
-            android:layout_columnSpan="2"
-            android:layout_gravity="fill"
-            android:layout_marginTop="15dp"
-            />
-
-        <Button
             android:id="@+id/button20"
             android:layout_width="@dimen/button_length"
             android:layout_height="@dimen/button_length"
