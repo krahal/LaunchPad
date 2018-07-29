@@ -48,10 +48,8 @@ public class MainActivity extends AppCompatActivity
     Button button10, button11, button12, button13;
     Button button20, button21, button22, button23;
     Button button30, button31, button32, button33;
-    Button launchButton;
 
     Map<Integer, Integer> buttonPressedColorMap;
-    Map<Integer, Integer> buttonReleasedColorMap;
 
     // toggle button object
     ToggleButton toggleButton;
@@ -161,7 +159,6 @@ public class MainActivity extends AppCompatActivity
         button31 = (Button) findViewById(R.id.button31);
         button32 = (Button) findViewById(R.id.button32);
         button33 = (Button) findViewById(R.id.button33);
-        launchButton = (Button) findViewById(R.id.launchButton);
         toggleButton = (ToggleButton) findViewById(R.id.toggleButton);
         helpButton = (ToggleButton) findViewById(R.id.helpButton);
 
@@ -177,9 +174,7 @@ public class MainActivity extends AppCompatActivity
         initButtonSounds();
 
         buttonPressedColorMap = new HashMap<>();
-        //buttonReleasedColorMap = new HashMap<>();
         initButtonPressedColorMap();
-        //initButtonReleasedColorMap();
 
         /******************************** END OF INITIALIZATION **************************/
 
@@ -225,13 +220,11 @@ public class MainActivity extends AppCompatActivity
                                     playerThread00.execute(buttonSoundsMap.get("button00"));
                                     return true;
                                 case MotionEvent.ACTION_UP:
-                                    //button00.getBackground().setColorFilter(buttonReleasedColorMap.get(0), PorterDuff.Mode.MULTIPLY);
                                     button00.getBackground().clearColorFilter();
                                     player00.setLooping(false);
                                     playerThread00.cancel(true);
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -261,11 +254,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player01.setLooping(false);
                                     playerThread01.cancel(true);
-                                    //button01.getBackground().setColorFilter(buttonReleasedColorMap.get(1), PorterDuff.Mode.MULTIPLY);
                                     button01.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -295,11 +286,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player02.setLooping(false);
                                     playerThread02.cancel(true);
-                                    //button02.getBackground().setColorFilter(buttonReleasedColorMap.get(2), PorterDuff.Mode.MULTIPLY);
                                     button02.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -329,11 +318,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player03.setLooping(false);
                                     playerThread03.cancel(true);
-                                    //button03.getBackground().setColorFilter(buttonReleasedColorMap.get(3), PorterDuff.Mode.MULTIPLY);
                                     button03.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -363,11 +350,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player10.setLooping(false);
                                     playerThread10.cancel(true);
-                                    //button10.getBackground().setColorFilter(buttonReleasedColorMap.get(4), PorterDuff.Mode.MULTIPLY);
                                     button10.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -397,11 +382,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player11.setLooping(false);
                                     playerThread11.cancel(true);
-                                    //button11.getBackground().setColorFilter(buttonReleasedColorMap.get(5), PorterDuff.Mode.MULTIPLY);
                                     button11.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -431,11 +414,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player12.setLooping(false);
                                     playerThread12.cancel(true);
-                                    //button12.getBackground().setColorFilter(buttonReleasedColorMap.get(6), PorterDuff.Mode.MULTIPLY);
                                     button12.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -465,11 +446,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player13.setLooping(false);
                                     playerThread13.cancel(true);
-                                    //button13.getBackground().setColorFilter(buttonReleasedColorMap.get(7), PorterDuff.Mode.MULTIPLY);
                                     button13.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -499,11 +478,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player20.setLooping(false);
                                     playerThread20.cancel(true);
-                                    //button20.getBackground().setColorFilter(buttonReleasedColorMap.get(8), PorterDuff.Mode.MULTIPLY);
                                     button20.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -533,11 +510,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player21.setLooping(false);
                                     playerThread21.cancel(true);
-                                    //button21.getBackground().setColorFilter(buttonReleasedColorMap.get(9), PorterDuff.Mode.MULTIPLY);
                                     button21.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -567,11 +542,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player22.setLooping(false);
                                     playerThread22.cancel(true);
-                                    //button22.getBackground().setColorFilter(buttonReleasedColorMap.get(10), PorterDuff.Mode.MULTIPLY);
                                     button22.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -601,11 +574,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player23.setLooping(false);
                                     playerThread23.cancel(true);
-                                    //button23.getBackground().setColorFilter(buttonReleasedColorMap.get(11), PorterDuff.Mode.MULTIPLY);
                                     button23.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -635,11 +606,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player30.setLooping(false);
                                     playerThread30.cancel(true);
-                                    //button30.getBackground().setColorFilter(buttonReleasedColorMap.get(12), PorterDuff.Mode.MULTIPLY);
                                     button30.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -669,11 +638,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player31.setLooping(false);
                                     playerThread31.cancel(true);
-                                    //button31.getBackground().setColorFilter(buttonReleasedColorMap.get(13), PorterDuff.Mode.MULTIPLY);
                                     button31.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -703,11 +670,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player32.setLooping(false);
                                     playerThread32.cancel(true);
-                                    //button32.getBackground().setColorFilter(buttonReleasedColorMap.get(14), PorterDuff.Mode.MULTIPLY);
                                     button32.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -737,11 +702,9 @@ public class MainActivity extends AppCompatActivity
                                 case MotionEvent.ACTION_UP:
                                     player33.setLooping(false);
                                     playerThread33.cancel(true);
-                                    //button33.getBackground().setColorFilter(buttonReleasedColorMap.get(15), PorterDuff.Mode.MULTIPLY);
                                     button33.getBackground().clearColorFilter();
                                     return true;
                             }
-
                         }
                         return false;
                     }
@@ -750,33 +713,6 @@ public class MainActivity extends AppCompatActivity
 
         /************************ END OF LAUNCH PAD BUTTON LISTENERS ********************/
 
-        /************************ LISTENER FOR LAUNCH BUTTON ***************************/
-
-        // execute the HttpPostRequest class
-        launchButton.setOnTouchListener(
-                new View.OnTouchListener() {
-                    @Override
-                    public boolean onTouch(View v, MotionEvent event) {
-                        switch (event.getAction()) {
-                            case MotionEvent.ACTION_DOWN:
-                                // call http post request class with the url
-                                if(playSoundFlag) {
-                                    launchButton.getBackground().setColorFilter(buttonPressedColorMap.get(16), PorterDuff.Mode.MULTIPLY);
-                                }
-                                new HttpPostRequest().execute("http://38.88.74.83/cpen291-project2/appPhp.php");
-                                return true;
-                            case MotionEvent.ACTION_UP:
-                                if(playSoundFlag) {
-                                    //launchButton.getBackground().setColorFilter(buttonReleasedColorMap.get(16), PorterDuff.Mode.MULTIPLY);
-                                    launchButton.getBackground().clearColorFilter();
-                                }
-                        }
-                        return false;
-                    }
-                }
-        );
-
-        /******************** END OF LISTENER FOR LAUNCH BUTTON ***********************/
 
         /************ TOGGLE BUTTON LISTENER THAT SETS PLAY SOUND MODE ****************/
 
@@ -795,26 +731,6 @@ public class MainActivity extends AppCompatActivity
                     layout.setBackgroundColor(0xFF1a1a1a);
                     toggleButton.setBackgroundDrawable(getResources().getDrawable(R.drawable.green_play_button));
                     playSoundFlag = true;
-
-                    // change button colors
-//                    button00.getBackground().setColorFilter(buttonReleasedColorMap.get(0), PorterDuff.Mode.MULTIPLY);
-//                    button01.getBackground().setColorFilter(buttonReleasedColorMap.get(1), PorterDuff.Mode.MULTIPLY);
-//                    button02.getBackground().setColorFilter(buttonReleasedColorMap.get(2), PorterDuff.Mode.MULTIPLY);
-//                    button03.getBackground().setColorFilter(buttonReleasedColorMap.get(3), PorterDuff.Mode.MULTIPLY);
-//                    button10.getBackground().setColorFilter(buttonReleasedColorMap.get(4), PorterDuff.Mode.MULTIPLY);
-//                    button11.getBackground().setColorFilter(buttonReleasedColorMap.get(5), PorterDuff.Mode.MULTIPLY);
-//                    button12.getBackground().setColorFilter(buttonReleasedColorMap.get(6), PorterDuff.Mode.MULTIPLY);
-//                    button13.getBackground().setColorFilter(buttonReleasedColorMap.get(7), PorterDuff.Mode.MULTIPLY);
-//                    button20.getBackground().setColorFilter(buttonReleasedColorMap.get(8), PorterDuff.Mode.MULTIPLY);
-//                    button21.getBackground().setColorFilter(buttonReleasedColorMap.get(9), PorterDuff.Mode.MULTIPLY);
-//                    button22.getBackground().setColorFilter(buttonReleasedColorMap.get(10), PorterDuff.Mode.MULTIPLY);
-//                    button23.getBackground().setColorFilter(buttonReleasedColorMap.get(11), PorterDuff.Mode.MULTIPLY);
-//                    button30.getBackground().setColorFilter(buttonReleasedColorMap.get(12), PorterDuff.Mode.MULTIPLY);
-//                    button31.getBackground().setColorFilter(buttonReleasedColorMap.get(13), PorterDuff.Mode.MULTIPLY);
-//                    button32.getBackground().setColorFilter(buttonReleasedColorMap.get(14), PorterDuff.Mode.MULTIPLY);
-//                    button33.getBackground().setColorFilter(buttonReleasedColorMap.get(15), PorterDuff.Mode.MULTIPLY);
-//                    launchButton.getBackground().setColorFilter(buttonReleasedColorMap.get(16), PorterDuff.Mode.MULTIPLY);
-
                 } else {
                     layout.setBackgroundColor(Color.WHITE);
                     toggleButton.setBackgroundDrawable(getResources().getDrawable(R.drawable.white_play_button));
@@ -837,7 +753,6 @@ public class MainActivity extends AppCompatActivity
                     button31.getBackground().clearColorFilter();
                     button32.getBackground().clearColorFilter();
                     button33.getBackground().clearColorFilter();
-                    launchButton.getBackground().clearColorFilter();
                 }
             }
         });
@@ -921,13 +836,13 @@ public class MainActivity extends AppCompatActivity
             if (id == R.id.nav_sound1) {
                 player.reset();
                 playSound("1");
-            } else if (id == R.id.nav_sound2) { // local mp3
-                player.reset();
-                playSound("2");
-            } else if (id == R.id.nav_sound3) { // local mp3
+            } else if (id == R.id.nav_sound2) {
+            player.reset();
+            playSound("2");
+            } else if (id == R.id.nav_sound3) {
                 player.reset();
                 playSound("3");
-            } else if (id == R.id.nav_sound4) { // local mp3
+            } else if (id == R.id.nav_sound4) {
                 player.reset();
                 playSound("4");
             } else if (id == R.id.nav_sound5) {
@@ -966,32 +881,8 @@ public class MainActivity extends AppCompatActivity
             } else if (id == R.id.nav_sound16) {
                 player.reset();
                 playSound("16");
-            } else if (id == R.id.nav_sound17) {
-                player.reset();
-                playSound("17");
-            } else if (id == R.id.nav_sound18) {
-                player.reset();
-                playSound("18");
-            } else if (id == R.id.nav_sound19) {
-                player.reset();
-                playSound("19");
-            } else if (id == R.id.nav_sound20) {
-                player.reset();
-                playSound("20");
-            } else if (id == R.id.nav_sound21) {
-                player.reset();
-                playSound("21");
-            } else if (id == R.id.nav_sound22) {
-                player.reset();
-                playSound("22");
-            } else if (id == R.id.nav_sound23) {
-                player.reset();
-                playSound("23");
-            } else if (id == R.id.nav_sound24) {
-                player.reset();
-                playSound("24");
             }
-            // else update button sounds if sound flag is false
+        // else update button sounds if sound flag is false
         } else if (!playSoundFlag) {                                // MODE 2
             if (id == R.id.nav_sound1) {
                 buttonSoundsMap.put(clickedButton, "1");
@@ -1025,22 +916,6 @@ public class MainActivity extends AppCompatActivity
                 buttonSoundsMap.put(clickedButton, "15");
             } else if (id == R.id.nav_sound16) {
                 buttonSoundsMap.put(clickedButton, "16");
-            } else if (id == R.id.nav_sound17) {
-                buttonSoundsMap.put(clickedButton, "17");
-            } else if (id == R.id.nav_sound18) {
-                buttonSoundsMap.put(clickedButton, "18");
-            } else if (id == R.id.nav_sound19) {
-                buttonSoundsMap.put(clickedButton, "19");
-            } else if (id == R.id.nav_sound20) {
-                buttonSoundsMap.put(clickedButton, "20");
-            } else if (id == R.id.nav_sound21) {
-                buttonSoundsMap.put(clickedButton, "21");
-            } else if (id == R.id.nav_sound22) {
-                buttonSoundsMap.put(clickedButton, "22");
-            } else if (id == R.id.nav_sound23) {
-                buttonSoundsMap.put(clickedButton, "23");
-            } else if (id == R.id.nav_sound24) {
-                buttonSoundsMap.put(clickedButton, "24");
             }
             // close drawer after menu item click
             drawer.closeDrawer(GravityCompat.START);
@@ -1092,26 +967,6 @@ public class MainActivity extends AppCompatActivity
         buttonPressedColorMap.put(16, 0xFFff9933);
     }
 
-//    private void initButtonReleasedColorMap() {
-//        buttonReleasedColorMap.put(0, 0xFF00FFFF);
-//        buttonReleasedColorMap.put(1, 0xFF00FFFF);
-//        buttonReleasedColorMap.put(2, 0xFF00FFFF);
-//        buttonReleasedColorMap.put(3, 0xFF00FFFF);
-//        buttonReleasedColorMap.put(4, 0xFF00FFCC);
-//        buttonReleasedColorMap.put(5, 0xFF00FFCC);
-//        buttonReleasedColorMap.put(6, 0xFF00FFCC);
-//        buttonReleasedColorMap.put(7, 0xFF00FFCC);
-//        buttonReleasedColorMap.put(8, 0xFF00FF99);
-//        buttonReleasedColorMap.put(9, 0xFF00FF99);
-//        buttonReleasedColorMap.put(10, 0xFF00FF99);
-//        buttonReleasedColorMap.put(11, 0xFF00FF99);
-//        buttonReleasedColorMap.put(12, 0xFF00FF66);
-//        buttonReleasedColorMap.put(13, 0xFF00FF66);
-//        buttonReleasedColorMap.put(14, 0xFF00FF66);
-//        buttonReleasedColorMap.put(15, 0xFF00FF66);
-//        buttonReleasedColorMap.put(16, 0xFF00FF00);
-//    }
-
     /**
      * Convert the map of button sounds to a string for Http Post in
      * the following format: key0=value0&key1=value1
@@ -1145,55 +1000,39 @@ public class MainActivity extends AppCompatActivity
     private String getSoundUrl(String value) {
         switch (value) {
             case "1":
-                return "http://38.88.74.83/cpen291-project2/sounds/1.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "2":
-                return "http://38.88.74.83/cpen291-project2/sounds/2.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "3":
-                return "http://38.88.74.83/cpen291-project2/sounds/3.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "4":
-                return "http://38.88.74.83/cpen291-project2/sounds/4.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "5":
-                return "http://38.88.74.83/cpen291-project2/sounds/5.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "6":
-                return "http://38.88.74.83/cpen291-project2/sounds/6.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "7":
-                return "http://38.88.74.83/cpen291-project2/sounds/7.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "8":
-                return "http://38.88.74.83/cpen291-project2/sounds/8.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "9":
-                return "http://38.88.74.83/cpen291-project2/sounds/9.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "10":
-                return "http://38.88.74.83/cpen291-project2/sounds/10.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "11":
-                return "http://38.88.74.83/cpen291-project2/sounds/11.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "12":
-                return "http://38.88.74.83/cpen291-project2/sounds/12.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "13":
-                return "http://38.88.74.83/cpen291-project2/sounds/13.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "14":
-                return "http://38.88.74.83/cpen291-project2/sounds/14.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "15":
-                return "http://38.88.74.83/cpen291-project2/sounds/15.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "16":
-                return "http://38.88.74.83/cpen291-project2/sounds/16.mp3";
-            case "17":
-                return "http://38.88.74.83/cpen291-project2/sounds/17.mp3";
-            case "18":
-                return "http://38.88.74.83/cpen291-project2/sounds/18.mp3";
-            case "19":
-                return "http://38.88.74.83/cpen291-project2/sounds/19.mp3";
-            case "20":
-                return "http://38.88.74.83/cpen291-project2/sounds/20.mp3";
-            case "21":
-                return "http://38.88.74.83/cpen291-project2/sounds/21.mp3";
-            case "22":
-                return "http://38.88.74.83/cpen291-project2/sounds/22.mp3";
-            case "23":
-                return "http://38.88.74.83/cpen291-project2/sounds/23.mp3";
-            case "24":
-                return "http://38.88.74.83/cpen291-project2/sounds/24.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             default:
-                return "http://38.88.74.83/cpen291-project2/sounds/0.mp3";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
         }
     }
 

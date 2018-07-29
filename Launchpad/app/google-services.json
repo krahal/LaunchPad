@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "593819415009",
+    "firebase_url": "https://launchpad-9c2ae.firebaseio.com",
+    "project_id": "launchpad-9c2ae",
+    "storage_bucket": "launchpad-9c2ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593819415009:android:75b045d909781489",
+        "android_client_info": {
+          "package_name": "com.example.nisha.launchpad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593819415009-sdm7hf5j0gjat5qtgcm2o80m40fddscc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL8H_5Q1pliwAfnCVNkjnelN1SrZfC4HU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
