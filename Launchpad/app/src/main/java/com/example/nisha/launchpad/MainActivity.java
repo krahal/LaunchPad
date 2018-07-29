@@ -1000,39 +1000,39 @@ public class MainActivity extends AppCompatActivity
     private String getSoundUrl(String value) {
         switch (value) {
             case "1":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/HiHat%2001.wav?alt=media&token=5d2f24e2-bf1d-4071-a34f-be5accab2bbf";
             case "2":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/HiHat%2002.wav?alt=media&token=a9333328-8522-4891-8fcc-2e26af15066e";
             case "3":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/HiHat%2003.wav?alt=media&token=69c95adc-283d-40b6-be23-0a8ceeedbe4d";
             case "4":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Kick%2001.wav?alt=media&token=603b71cb-092a-459e-9f0a-5acba4034881";
             case "5":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Kick%2002.wav?alt=media&token=adf65adb-795f-460a-aaba-7d676c5fba4b";
             case "6":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Kick%2003.wav?alt=media&token=295aca13-03e9-4a95-b3d8-ad30f53178e2";
             case "7":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Percussion%2001.wav?alt=media&token=112589a7-a6c3-4a43-a2be-52fac221a048";
             case "8":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Percussion%2002.wav?alt=media&token=b692a138-fbf3-45ea-b544-4ff6b96d0eeb";
             case "9":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Percussion%2003.wav?alt=media&token=f1acba3c-c689-4e8f-ace9-041c1b2239e9";
             case "10":
                 return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
             case "11":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2002.wav?alt=media&token=02ce4887-0440-466d-9873-698327885e68";
             case "12":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2003.wav?alt=media&token=ec19667f-eeac-49a2-b15d-e5ac118ae600";
             case "13":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Tom%201.wav?alt=media&token=e99ec61f-1803-40d4-b7b5-3ebe919dd3af";
             case "14":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Tom%202.wav?alt=media&token=c0126789-368c-4800-900d-6ff9e0364229";
             case "15":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Tom%203.wav?alt=media&token=db00f6bb-16d2-45eb-8a9e-e2fd7b8bcc51";
             case "16":
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Tom%204.wav?alt=media&token=0cea76ac-7642-4859-b853-82c252b1a60f";
             default:
-                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/Snare%2001.wav?alt=media&token=1cfa3069-3c7e-424c-8d51-03798ab83256";
+                return "https://firebasestorage.googleapis.com/v0/b/launchpad-9c2ae.appspot.com/o/No%20Sound.mp3?alt=media&token=381a86e3-e39e-4103-a6b0-a45a8cedc14b";
         }
     }
 
